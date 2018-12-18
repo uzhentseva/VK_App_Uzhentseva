@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9012F77421C79E9A000BF6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F77321C79E9A000BF6D7 /* AppDelegate.swift */; };
-		9012F77621C79E9A000BF6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F77521C79E9A000BF6D7 /* ViewController.swift */; };
 		9012F77921C79E9A000BF6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9012F77721C79E9A000BF6D7 /* Main.storyboard */; };
 		9012F77B21C79E9F000BF6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9012F77A21C79E9F000BF6D7 /* Assets.xcassets */; };
 		9012F77E21C79E9F000BF6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9012F77C21C79E9F000BF6D7 /* LaunchScreen.storyboard */; };
 		9012F78921C79EA0000BF6D7 /* VK_App_UzhentsevaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F78821C79EA0000BF6D7 /* VK_App_UzhentsevaTests.swift */; };
 		9012F79421C79EA0000BF6D7 /* VK_App_UzhentsevaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F79321C79EA0000BF6D7 /* VK_App_UzhentsevaUITests.swift */; };
+		9012F7A221C7B964000BF6D7 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9012F7A121C7B964000BF6D7 /* LoginFormController.swift */; };
+		9012F7A421C7CB2E000BF6D7 /* img_437065.png in Resources */ = {isa = PBXBuildFile; fileRef = 9012F7A321C7CB2E000BF6D7 /* img_437065.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		9012F77021C79E9A000BF6D7 /* VK_App_Uzhentseva.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_App_Uzhentseva.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012F77321C79E9A000BF6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9012F77521C79E9A000BF6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9012F77821C79E9A000BF6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9012F77A21C79E9F000BF6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9012F77D21C79E9F000BF6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		9012F78F21C79EA0000BF6D7 /* VK_App_UzhentsevaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VK_App_UzhentsevaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9012F79321C79EA0000BF6D7 /* VK_App_UzhentsevaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VK_App_UzhentsevaUITests.swift; sourceTree = "<group>"; };
 		9012F79521C79EA0000BF6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9012F7A121C7B964000BF6D7 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
+		9012F7A321C7CB2E000BF6D7 /* img_437065.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_437065.png; path = ../../../../Users/anastasiauzhentseva/Documents/img_437065.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				9012F78721C79EA0000BF6D7 /* VK_App_UzhentsevaTests */,
 				9012F79221C79EA0000BF6D7 /* VK_App_UzhentsevaUITests */,
 				9012F77121C79E9A000BF6D7 /* Products */,
+				9012F7A321C7CB2E000BF6D7 /* img_437065.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				9012F77321C79E9A000BF6D7 /* AppDelegate.swift */,
-				9012F77521C79E9A000BF6D7 /* ViewController.swift */,
 				9012F77721C79E9A000BF6D7 /* Main.storyboard */,
 				9012F77A21C79E9F000BF6D7 /* Assets.xcassets */,
 				9012F77C21C79E9F000BF6D7 /* LaunchScreen.storyboard */,
 				9012F77F21C79E9F000BF6D7 /* Info.plist */,
+				9012F7A121C7B964000BF6D7 /* LoginFormController.swift */,
 			);
 			path = VK_App_Uzhentseva;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			files = (
 				9012F77E21C79E9F000BF6D7 /* LaunchScreen.storyboard in Resources */,
 				9012F77B21C79E9F000BF6D7 /* Assets.xcassets in Resources */,
+				9012F7A421C7CB2E000BF6D7 /* img_437065.png in Resources */,
 				9012F77921C79E9A000BF6D7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9012F77621C79E9A000BF6D7 /* ViewController.swift in Sources */,
 				9012F77421C79E9A000BF6D7 /* AppDelegate.swift in Sources */,
+				9012F7A221C7B964000BF6D7 /* LoginFormController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
