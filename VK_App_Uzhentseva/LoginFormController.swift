@@ -58,16 +58,51 @@ class LoginFormController: UIViewController {
         self.scrollView?.endEditing(true)
     }
     
-    @IBAction func loginButtonPressed(_ sender: Any) {
+        @IBAction func loginButtonPressed(_ sender: Any) {
+    
+//            let login = loginInput.text!
+//            let password = passwordInput.text!
+//
+//            if login == "admin" && password == "0000" {
+//
+//            } else {
+//                print("Wasted")
+//            }
+        }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        
+        let checkResult = checkUserData()
+        
+        if !checkResult {
+            showLoginError()
+        }
+        
+        return checkResult
+    }
+    
+    func checkUserData () -> Bool {
         
         let login = loginInput.text!
         let password = passwordInput.text!
         
         if login == "admin" && password == "0000" {
-            print("OK")
+            return true
+            
         } else {
-            print("Wasted")
+            return false
         }
     }
     
+    func showLoginError() {
+        let alter = UIAlertController(title: "Error", message: "Invalid user account", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        
+        alter.addAction(action)
+        
+        present(alter, animated: true, completion: nil)
+    }
+    
 }
+
