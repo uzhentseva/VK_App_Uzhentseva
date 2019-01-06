@@ -86,7 +86,7 @@ class LoginFormController: UIViewController {
         let login = loginInput.text!
         let password = passwordInput.text!
         
-        if login == "admin" && password == "0000" {
+        if login == "" && password == "" {
             return true
             
         } else {
